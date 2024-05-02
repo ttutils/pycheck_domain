@@ -11,7 +11,7 @@ with io.open("requirements.txt", 'r') as f:
 
 setup(
     name='pycheck_domain',
-    version='1.0.0',
+    version='1.0.1',
     description='域名助手',
     author='buyfakett',
     author_email='buyfakett@vip.qq.com',

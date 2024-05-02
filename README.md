@@ -10,3 +10,9 @@ if not check_domain(domain):
 else:
 	return resp_200()
 ```
+
+检测ssl证书的开始时间和到期时间，使用示例：
+
+```python
+start_time, end_time = check_ssl(domain_path)
+```
